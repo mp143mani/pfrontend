@@ -1,0 +1,74 @@
+
+*{margin: 0; padding:0; box-sizing: border-box;}
+
+.container-fluid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.login-wrapper{
+    height:auto;
+    width:60vw;
+    text-align: center;
+    display:inline-block;
+    flex-wrap: wrap;
+    color:aliceblue;
+    background-color: rgb(12, 11, 13);
+    opacity: 0.8;
+    border-radius: 4REM;
+  }
+
+
+.login-wrapper:hover {
+    opacity: 0.9;
+  }
+
+  form{
+    width:30vw;
+    display:inline-block;
+    flex-wrap: wrap;
+   margin:2rem
+  }
+ 
+
+ .Adjust{
+    width:80vw;
+     display:inline-block; 
+   flex-wrap: wrap; 
+   margin:2rem 
+  } 
+  
+.wallpaper{  /* background-color: aquamarine; */
+    background-image:url(../assets/wp8258131-slice-of-pizza-wallpapers.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+    ;
+    background-position: center;}
+
+h1{
+  overflow-y: hidden;
+}
+
+  .verti{
+    margin-left: 47%;
+  }
+
+  .Guidelines{
+    margin-top: 2rem;
+    font-weight: 450;
+    color:rgb(6, 6, 6)
+  }
+
+.openModalBtn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+  }
