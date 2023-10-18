@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import "./CSS/Pizzawindow.css";
+import "./CSS/veg.css";
 import thakkali from "../src/assets/veg/thakkali.jfif";
 import kathari from "../src/assets/veg/kathari.jpg";
 import beens from "../src/assets/veg/beens.jpg";

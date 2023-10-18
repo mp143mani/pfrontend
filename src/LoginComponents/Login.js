@@ -3,11 +3,11 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap";
 import axios from "axios";
-import env from "../enviroinment";
+import env from "../Backendurl";
 import { useNavigate } from "react-router-dom";
 import Spinner from "react-bootstrap/Spinner";
 import "../CSS/Login.css";
-import ModalNew from "../ModalNew";
+
 // import Modal from "../Modal";
 
 function Login() {
@@ -54,7 +54,6 @@ function Login() {
     <>
       <div className="container-fluid wallpaper">
         <div className="login-wrapper ">
-          <h1>PIZZA MANIA</h1>
           <p>Login to Continue</p>
           <Form>
             <Form.Group className="mb-3">
@@ -96,7 +95,6 @@ function Login() {
             >
               Forgot Password
             </Button>
-            <ModalNew />
           </Form>
           {toggle ? <Spinner animation="border" variant="primary" /> : <></>}
           {message ? (

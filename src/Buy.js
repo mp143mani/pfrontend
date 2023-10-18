@@ -1,6 +1,6 @@
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
-import './CSS/Pizzawindow.css';
+import './CSS/veg.css';
 
 const Indexes = ({ price }) => {
     const priceForStripe = price * 100;
