@@ -15,8 +15,8 @@
     text-align: center;
     display:inline-block;
     flex-wrap: wrap;
-    color:aliceblue;
-    background-color: rgb(12, 11, 13);
+    color:rgb(0, 0, 0);
+    background-color: rgb(82, 0, 164);
     opacity: 0.8;
     border-radius: 4REM;
   }
@@ -41,13 +41,7 @@
    margin:2rem 
   } 
   
-.wallpaper{  /* background-color: aquamarine; */
-    background-image:url(../assets/wp8258131-slice-of-pizza-wallpapers.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed
-    ;
-    background-position: center;}
+
 
 h1{
   overflow-y: hidden;

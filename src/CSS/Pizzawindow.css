@@ -1,7 +1,7 @@
  *{margin: 0; padding:0; box-sizing: border-box;overflow-x: hidden;}
 
 .set{
- background-image:url(../assets/wp2315643-animated-pizza-wallpapers.jpg);
+ /* background-image:url(../assets/wp2315643-animated-pizza-wallpapers.jpg); */
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed
