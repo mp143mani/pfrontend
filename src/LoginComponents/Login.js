@@ -32,7 +32,7 @@ function Login() {
     if (res.data.statusCode === 200) {
       setToggle(false);
       localStorage.setItem("token", res.data.token);
-      navigate("/Pizzawindow");
+      navigate("/Kmart");
     } else {
       setToggle(false);
       setMessage(res.data.message);

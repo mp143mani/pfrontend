@@ -5,9 +5,9 @@ import Register from "./LoginComponents/Register";
 import ForgotReq from "./LoginComponents/ForgotReq";
 import Forgot from "./LoginComponents/Forgetpassword";
 import Login from "./LoginComponents/Login";
-import Pizzawindow from "./Pizzawindow";
+import Kmart from "./Kmart";
 import Indexes from "./Buy";
-import Indexes1 from "./Indexes1";
+import Price1 from "./Price1";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
         <Route path="/ForgotReq" element={<ForgotReq />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/RegisterReq" element={<RegisterReq />} />
-        <Route path="/Pizzawindow" element={<Pizzawindow />} />
-        <Route path="/payment" element={<Indexes1 />} />
+        <Route path="/Kmart" element={<Kmart />} />
+        <Route path="/payment" element={<Price1 />} />
         <Route path="*" element={<Navigate to={"/"} />} />
       </Routes>
     </div>

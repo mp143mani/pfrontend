@@ -12,7 +12,7 @@ import beens from "../src/assets/veg/beens.jpg";
 import caret from "../src/assets/veg/images1.jfif";
 import Button from "react-bootstrap/Button";
 
-export default function Pizzawindow() {
+export default function Kmart() {
   const navigate = useNavigate();
 
   let Move = async (totalPrice) => {
@@ -31,7 +31,7 @@ export default function Pizzawindow() {
         {["xl"].map((expand) => (
           <Navbar key={expand} bg="dark" expand={expand} className="">
             <Navbar.Brand href="#">
-              <span id="color">Pizza Mania</span>
+              <span id="color">Kmart</span>
             </Navbar.Brand>
           </Navbar>
         ))}
