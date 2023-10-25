@@ -6,7 +6,7 @@ import ForgotReq from "./LoginComponents/ForgotReq";
 import Forgot from "./LoginComponents/Forgetpassword";
 import Login from "./LoginComponents/Login";
 import Kmart from "./Kmart";
-import Indexes from "./Buy";
+import Buy from "./Buy";
 import Price1 from "./Price1";
 
 function App() {
