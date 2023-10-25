@@ -50,15 +50,7 @@ export default function Register() {
             required
           />
         </FormGroup>
-        {/* <FormGroup>
-          <Label for="role">Role</Label>
-          <Input
-            onChange={(e)=>setRole(e.target.value)}
-            placeholder="Enter role"
-            type="role"
-            required
-          />
-        </FormGroup> */}
+       
         <FormGroup>
           <Label for="email">email</Label>
           <Input
